@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Email Signature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* Signature Container */
+        .signature-container {
+            width: 100%;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        /* Profile image styling */
+        .profile-img {
+            width: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        /* Name and Position */
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c7c31; /* Green */
+            margin-bottom: 5px;
+        }
+
+        .position {
+            font-size: 16px;
+            color: #4a7c47; /* Darker green */
+            margin-bottom: 10px;
+        }
+
+        /* Award Section */
+        .award {
+            background-color: #effaf0;
+            border-left: 5px solid #2c7c31;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #4a7c47;
+            font-style: italic;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Award Icon */
+        .award img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .contact-info a {
+            color: #2c7c31;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Social Icons */
+        .social-icons a {
+            text-decoration: none;
+            margin-right: 12px;
+        }
+
+        .social-icons img {
+            width: 35px;
+            height: 35px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Confidentiality Notice */
+        .confidentiality {
+            font-size: 12px;
+            color: #555;
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+            line-height: 1.5;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            .signature-container {
+                padding: 15px;
+            }
+
+            .profile-img {
+                width: 100px;
+            }
+
+            .social-icons {
+                text-align: center;
+            }
+
+            .social-icons a {
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signature-container">
+        <table style="width: 100%; background-color: #ffffff;">
+            <tr>
+                <td style="width: 120px; vertical-align: top;">
+                    <img src="https://static.wixstatic.com/media/9cb4a9_7c831fd13bbb473e86a05ad54c4079e5~mv2.png" alt="Hotel Logo" class="profile-img">
+                </td>
+                <td style="padding-left: 15px; vertical-align: top;">
+                    <div class="name">Bihindu Pananwala</div>
+                    <div class="position">Reservation Team</div>
+                    <div class="award">
+                        <img src="https://img.icons8.com/color/48/tripadvisor.png" alt="Award Icon">
+                        Winner of TripAdvisor - "Certificate of Excellence 2014"
+                    </div>
+                    <div class="contact-info">
+                        <p>📞 Tel: <a href="tel:+94704468351">+94704468351</a></p>
+                        <p>🏢 Address: 29, Haddon Hill Street, Nuwara Eliya</p>
+                        <p>H/O :-  654/19, Industrial Estate, Galle Road, Ratmalana</p>
+                        <p>📧 Email: <a href="mailto:teabushhotel@gmail.com">teabushhotel@gmail.com</a></p>
+                        <p>🌐 Website: <a href="https://www.teabush-hotel.com" target="_blank">www.teabush-hotel.com</a></p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/TeaBushHotel/" target="_blank">
+                            <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.tripadvisor.com/Hotel_Review-g608524-d1626745-Reviews-Tea_Bush_Hotel-Nuwara_Eliya_Central_Province.html" target="_blank">
+                            <img src="https://img.icons8.com/color/48/tripadvisor.png" alt="TripAdvisor">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram">
+                        </a>
+                        <a href="https://lk.linkedin.com/in/tea-bush-hotel-pvt-ltd-7a135057" target="_blank">
+                            <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="confidentiality">
+            <p><strong>Confidentiality Notice:</strong> This email and any attachments are intended only for the designated recipient. If you are not the intended recipient, please notify the sender immediately and delete the message from your system.</p>
+            <p>Any unauthorized review, use, disclosure, or distribution is strictly prohibited. Thank you for your cooperation.</p>
+        </div>
+    </div>
+</body>
+</html>
